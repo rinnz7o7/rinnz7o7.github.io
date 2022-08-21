@@ -1,0 +1,20 @@
+.social-link a i
+{
+  color: #fff;
+  margin-right: 15px;
+  transition: color 0.3s;
+  cursor: grab;
+
+}
+.social-link a
+{
+  text-decoration: none;
+}
+.social-link i:hover 
+{
+  color: var(--font-color);
+}
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}

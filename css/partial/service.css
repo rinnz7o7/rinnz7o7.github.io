@@ -1,0 +1,44 @@
+.card-container
+{
+    width: 73px;
+    height: 65px;
+    background-color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 18px;
+}
+.cd
+{
+    transition: 0.3s;
+}
+.cd:hover
+{
+    background-color: var(--font-color);
+   
+}
+.card-container i 
+{
+    color: #fff;
+}
+.card:hover .card-container 
+{
+    background-color: white;
+}
+.card:hover .card-container i
+{
+    color: var(--font-color);
+}
+.card-bg
+{
+    background-color: #111430;
+}
+.card-p 
+{
+    font-size: 16px;
+    color: white;
+    font-family: var(--body-font-family);
+}

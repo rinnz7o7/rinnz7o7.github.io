@@ -1,0 +1,62 @@
+body {
+  scroll-behavior: smooth;
+  background-color: var(--primary-color);
+}
+.title {
+  font-weight: 600;
+  font-size: 35px;
+  font-family: var(--header-font-family);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
+.semi-title {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: var(--header-font-family);
+  color: var(--font-color);
+  text-transform: uppercase;
+}
+.text {
+  font-family: var(--body-font-family);
+  font-size: 19px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+.first-part {
+  background-color: var(--primary-color);
+}
+.piece {
+  width: 130px;
+  height: 3px;
+  background-color: var(--font-color);
+}
+.btn-primary {
+  background-color: var(--font-color);
+  width: 120px;
+  height: 45px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  transition: background-color 0.3s;
+  border: 0;
+}
+.btn-primary:hover {
+  background-color: #603162;
+}
+
+.secondary-part {
+  background-color: var(--secondary-color);
+  /* padding: 80px 0px; */
+}
+.py-60 {
+  padding: 120px 0;
+}
+.scrollTop {
+  text-decoration: none;
+  bottom: 50px;
+  right: 15px;
+  
+}

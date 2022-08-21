@@ -1,0 +1,11 @@
+:root {
+  /* font   */
+  --font-family: "Nunito", "Raleway", sans-serif;
+  --header-font-family: "Raleway", sans-serif;
+  --body-font-family: "Nunito", sans-serif;
+
+  /* color  */
+  --primary-color: #090a1a;
+  --secondary-color: #2a2344;
+  --font-color: #647bff;
+}

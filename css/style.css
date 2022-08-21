@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Raleway:wght@400;500;600&display=swap");
+
+
+
+/* Variable  */
+@import url(../css/partial/variable.css);
+
+/* Common  */
+@import url(./partial/common.css);
+
+/* Navbar  */
+@import url(./partial/navbar.css);
+
+/* Home */
+@import url(./partial/home.css);
+
+/* About US  */
+@import url(./partial/about.css);
+
+
+/* Service  */
+@import url(./partial/service.css);
+
+/* portfolio  */
+@import url(./partial/portfolio.css);
+
+/* Contact */
+@import url(./partial/contact.css);
